@@ -11,12 +11,11 @@ Recently, hyperspectral image (HSI) classification based on deep learning method
 1. A novel S<sup>3</sup>AM is proposed to capture the relevant spatial areas effectively in the HSI cube. Specifically, the WED and WCD sub-modules, which adopt the FBC layers to relieve the adverse influence of the spectral variability, are first applied to improve the robustness of the spectral similarities. Both weighted spectral similarities are then integrated adaptively to gain the representative composite spectral similarity. Finally, an SG activation function is designed to convert the spectral similarities to the appropriate spatial weights flexibly in diverse scenes. The S<sup>3</sup>AM excels at emphasizing the spatial areas relevant intensively to the center pixel and preserving these crucial areas even in a wider HSI cube.
 2. An end-to-end S<sup>3</sup>AM-Net model, which contains the S<sup>3</sup>AM and ResNet, is designed to obtain the discriminating features for HSI classification. With the support of the functional S<sup>3</sup>AM, this model is capable of handling the spatial features as well as the spectral-spatial features efficiently.
 
-
-![Image](https://github.com/ningyang-li/S3AM-Net/blob/8102cc5ac219c6b53dbca452073ab5252acbb73f/pic/S3AM.png)  
-![Image](https://github.com/ningyang-li/S3AM-Net/blob/8102cc5ac219c6b53dbca452073ab5252acbb73f/pic/WED.png)  
-![Image](https://github.com/ningyang-li/S3AM-Net/blob/8102cc5ac219c6b53dbca452073ab5252acbb73f/pic/WCD.png)  
-![Image](https://github.com/ningyang-li/S3AM-Net/blob/8102cc5ac219c6b53dbca452073ab5252acbb73f/pic/SG.png)  
-![Image](https://github.com/ningyang-li/S3AM-Net/blob/8102cc5ac219c6b53dbca452073ab5252acbb73f/pic/Net.png)  
+<img src="https://github.com/ningyang-li/S3AM-Net/blob/8102cc5ac219c6b53dbca452073ab5252acbb73f/pic/S3AM.png" width="500" />  
+<img src="https://github.com/ningyang-li/S3AM-Net/blob/8102cc5ac219c6b53dbca452073ab5252acbb73f/pic/WED.png" width="500" />  
+<img src="https://github.com/ningyang-li/S3AM-Net/blob/8102cc5ac219c6b53dbca452073ab5252acbb73f/pic/WCD.png" width="500" />  
+<img src="https://github.com/ningyang-li/S3AM-Net/blob/8102cc5ac219c6b53dbca452073ab5252acbb73f/pic/SG.png" width="500" />  
+<img src="https://github.com/ningyang-li/S3AM-Net/blob/8102cc5ac219c6b53dbca452073ab5252acbb73f/pic/Net.png" width="500" />  
 
 **Citation:**  
 N. Li, Z. Wang, F. A. Cheikh and M. Ullah, "S3AM: A Spectral-Similarity-Based Spatial Attention Module for Hyperspectral Image Classification," in IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, vol. 15, pp. 5984-5998, 2022, doi: 10.1109/JSTARS.2022.3191396.
