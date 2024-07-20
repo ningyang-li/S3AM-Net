@@ -32,7 +32,7 @@ y, y_train, y_test, y_val, y_train_1hot, y_test_1hot, y_val_1hot
 
 
 # build models
-s3am = S3AM_Net(input_shape=sp.input_shape, n_category=sp.n_category)
+s3am = S3AM_Net(input_shape=input_shape, n_category=n_category)
 model = s3am.model
 model.compile(optimizer=rmsprop, loss="categorical_crossentropy", metrics=["accuracy"])
 print(model.summary())
@@ -45,8 +45,8 @@ input("model has been built, please input any key to continnue ...\n")
 
 
 print("training ...\n")
-hist = model.fit(x=sp.X_train, y=sp.y_train_1hot, batch_size=args.bs, epochs=args.epochs,
-                    shuffle=True, validation_data=(sp.X_val, sp.y_val_1hot), verbose=1)
+hist = model.fit(x=X_train, y=y_train_1hot, batch_size=args.bs, epochs=args.epochs,
+                    shuffle=True, validation_data=(X_val, y_val_1hot), verbose=1)
 
 # play sound
 if args.env == 0:
@@ -54,7 +54,7 @@ if args.env == 0:
     
 # test
 print("testing ...\n")
-_, OA = model.evaluate(x=sp.X_test, y=sp.y_test_1hot)
+_, OA = model.evaluate(x=X_test, y=y_test_1hot)
 
 
 print("\n", time.ctime(time.time()))
