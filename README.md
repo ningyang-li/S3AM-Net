@@ -20,4 +20,14 @@ Recently, hyperspectral image (HSI) classification based on deep learning method
 **Citation:**  
 N. Li, Z. Wang, F. A. Cheikh and M. Ullah, "S3AM: A Spectral-Similarity-Based Spatial Attention Module for Hyperspectral Image Classification," in IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, vol. 15, pp. 5984-5998, 2022, doi: 10.1109/JSTARS.2022.3191396.
 
-
+<code>@ARTICLE{9832463,
+  author={Li, Ningyang and Wang, Zhaohui and Cheikh, Faouzi Alaya and Ullah, Mohib},
+  journal={IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing}, 
+  title={S3AM: A Spectral-Similarity-Based Spatial Attention Module for Hyperspectral Image Classification}, 
+  year={2022},
+  volume={15},
+  number={},
+  pages={5984-5998},
+  keywords={Feature extraction;Convolutional neural networks;Correlation;Data mining;Residual neural networks;Kernel;Euclidean distance;Center pixel;hyperspectral image classification;residual network;spatial attention;spectral similarity},
+  doi={10.1109/JSTARS.2022.3191396}}
+</code>
