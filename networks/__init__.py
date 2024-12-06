@@ -10,6 +10,7 @@ from __future__ import absolute_import
 # networks
 from .Network import Network
 from .S3AM_Net import S3AM_Net
+from .ResBlock_3D import ResBlock_3D
 
 
 # advanced layers
